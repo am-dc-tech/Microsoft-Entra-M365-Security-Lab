@@ -163,6 +163,11 @@
 
 ---
 
+###Security Consideration###
+
+The tenant started at 47.99/100 — normal for a new unconfigured environment. The two biggest improvements would be enabling MFA for all users and blocking legacy authentication, both done through Conditional Access in Entra. Either change alone would push the score into the 55-65 range. Secure Score is useful as an ongoing checklist — each action has a point value so you know what to prioritize.
+
+
 ## 🔗 Resources
 
 - [Microsoft Entra Admin Center](https://entra.microsoft.com)

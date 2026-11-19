@@ -73,7 +73,8 @@
 
 > ✅ **Expected result:** `support@AMTECHLab.onmicrosoft.com` can no longer sign in.
 
-> ⚠️ **Note:** In a real environment, shared accounts like `support` should be replaced with individual accounts and a shared mailbox.
+<img width="532" height="126" alt="6 block-sign-in-for-support-account" src="https://github.com/user-attachments/assets/d24b11d4-5f69-4099-84b7-efe6bfe928cb" />
+
 
 ---
 
@@ -87,8 +88,17 @@
 3. Click any sign-in entry and review:
    - **Basic info** tab — IP address, location, client app used
    - **Conditional Access** tab — which policies applied and their result
+
+
+<img width="877" height="292" alt="7,Alice-login-logs" src="https://github.com/user-attachments/assets/0250acb1-465f-4940-8b58-8b4915e7b94f" />
+
+
 4. Repeat for `carol@AMTECHLab.onmicrosoft.com`
 5. Change filter to **Status: Failure** — note any failed attempts
+
+<img width="1608" height="328" alt="8 Carol-sign-in-issue-log" src="https://github.com/user-attachments/assets/69a8c284-183f-42f5-8a19-16fe00b8e921" />
+
+> Tenant: `You can add Password-Lockout attempts to reduce the number of attempts for the user to log-in, better tighter security
 
 > ✅ **Expected result:** You can identify where, when, and how users are signing in and whether any policies are enforcing controls.
 

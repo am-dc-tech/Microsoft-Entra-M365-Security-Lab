@@ -104,26 +104,30 @@
 
 ---
 
-## 🟠 Part 2 — M365 Admin Center (`admin.microsoft.com`)
-
-### Task 4 — Create an Alert Policy for Role Assignments
-
-**Concept:** Monitoring & alerting — detecting unauthorized privilege escalation.
-
+## 🟠 Part 2 — Microsoft Defender (`security.microsoft.com`)
+ 
+### Task 4 — Assign a Role & Review in Audit Logs
+ 
+**Concept:** Monitoring — tracking who was given access and when. Every role assignment should be visible and auditable.
+ 
 **Steps:**
-1. Sign in to [admin.microsoft.com](https://admin.microsoft.com)
-2. Navigate to `Security → Alert policies`
-3. Click **+ New alert policy**
-4. Fill in:
-   - **Name:** `Alert - Admin Role Assigned`
-   - **Description:** Triggers when any user is added to a directory role
-   - **Activity:** Added member to role
-   - **Threshold:** Every time this activity occurs
-   - **Recipients:** your admin email address
-5. Click **Save**
+1. Sign in to [security.microsoft.com](https://security.microsoft.com)
+2. Go through the setup wizard → **Assign user permissions**
+3. Add your admin account
+4. Role: **Security reader**
+5. Complete the wizard
 
-> ✅ **Expected result:** You receive an email any time a user in AMTECHLab is assigned an admin role.
+**Then verify it in Entra:**
+1. Go to [entra.microsoft.com](https://entra.microsoft.com)
+2. Navigate to `Identity → Monitoring & health → Audit logs`
+3. Filter **Activity:** `Add member to role`
+4. You will see the role assignment you just made logged here
+> ✅ **Expected result:** The audit log shows exactly who was assigned a role, when, and by whom. In a real environment a SIEM would read this log and fire an alert automatically.
 
+
+<img width="900" height="34" alt="9 Role-management-success" src="https://github.com/user-attachments/assets/8803437c-8a2d-4e52-b1f8-355c233318cf" />
+
+ 
 ---
 
 ### Task 5 — Review Microsoft Secure Score

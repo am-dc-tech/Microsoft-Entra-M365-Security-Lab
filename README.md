@@ -1,6 +1,5 @@
 # 🔐 AMTECHLab — Microsoft Entra & M365 Security Lab
 
-> **Security+ SY0-701 aligned** | Identity & Access Management | Monitoring & Alerting  
 > Tenant: `AMTECHLab.onmicrosoft.com`
 
 ---

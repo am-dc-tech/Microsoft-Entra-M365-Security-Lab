@@ -139,9 +139,15 @@
 2. Review your current score
 3. Click the **Recommended actions** tab
 4. Find and read through these two actions (common for new tenants):
-   - *Require MFA for all users*
-   - *Block legacy authentication protocols*
+   - *Turn on Safe Attachments in block mode*
+   - *Enable Conditional Access policies to block legacy authentication*
 5. Note what your score would be if you implemented them
+
+<img width="422" height="505" alt="10 secure-score" src="https://github.com/user-attachments/assets/c5f48111-f5e3-447c-b4af-0a6d9dd67325" />
+
+
+<img width="1729" height="448" alt="11 microsoft-secure-recommended-actions" src="https://github.com/user-attachments/assets/7ad4f929-a642-4687-a9c9-7f17a10ca1ba" />
+
 
 > ✅ **Expected result:** You understand what Microsoft considers the highest-priority security gaps in your tenant.
 
@@ -152,7 +158,7 @@
 - [ ] Task 1 — Roles assigned to Alice, Carol, and Jamie
 - [ ] Task 2 — `support` account blocked
 - [ ] Task 3 — Sign-in logs reviewed for Alice and Carol
-- [ ] Task 4 — Alert policy created for role assignments
+- [ ] Task 4 — Role Assignments confirmed in Entra Audit Logs under Rolemanagement
 - [ ] Task 5 — Secure Score reviewed and top actions noted
 
 ---

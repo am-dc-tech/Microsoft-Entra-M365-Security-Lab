@@ -1,5 +1,6 @@
 # 🔐 AMTECHLab — Microsoft Entra & M365 Security Lab
 
+> Identity & Access Management | Monitoring & Alerting  
 > Tenant: `AMTECHLab.onmicrosoft.com`
 
 ---
@@ -30,7 +31,7 @@
 
 ### Task 1 — Assign Roles (RBAC / Least Privilege)
 
-**Security+ Concept:** Least privilege — users should only hold the permissions they need to do their job.
+**Concept:** Least privilege — users should only hold the permissions they need to do their job.
 
 **Steps:**
 1. Sign in to [entra.microsoft.com](https://entra.microsoft.com)
@@ -51,7 +52,7 @@
 
 ### Task 2 — Disable the `support` Account
 
-**Security+ Concept:** Accountability — shared/generic accounts cannot be tied to a single individual, violating audit and non-repudiation principles.
+**Concept:** Accountability — shared/generic accounts cannot be tied to a single individual, violating audit and non-repudiation principles.
 
 **Steps:**
 1. Navigate to `Identity → Users → support`
@@ -67,7 +68,7 @@
 
 ### Task 3 — Review Sign-in Logs
 
-**Security+ Concept:** Log analysis — identifying authentication events, failures, and conditional access results.
+**Concept:** Log analysis — identifying authentication events, failures, and conditional access results.
 
 **Steps:**
 1. Navigate to `Identity → Monitoring & health → Sign-in logs`
@@ -86,7 +87,7 @@
 
 ### Task 4 — Create an Alert Policy for Role Assignments
 
-**Security+ Concept:** Monitoring & alerting — detecting unauthorized privilege escalation.
+**Concept:** Monitoring & alerting — detecting unauthorized privilege escalation.
 
 **Steps:**
 1. Sign in to [admin.microsoft.com](https://admin.microsoft.com)
@@ -106,7 +107,7 @@
 
 ### Task 5 — Review Microsoft Secure Score
 
-**Security+ Concept:** Risk management — understanding your current security posture and prioritizing improvements.
+**Concept:** Risk management — understanding your current security posture and prioritizing improvements.
 
 **Steps:**
 1. Navigate to `Security → Microsoft Secure Score`
@@ -128,18 +129,6 @@
 - [ ] Task 3 — Sign-in logs reviewed for Alice and Carol
 - [ ] Task 4 — Alert policy created for role assignments
 - [ ] Task 5 — Secure Score reviewed and top actions noted
-
----
-
-## 📚 Security+ SY0-701 Domain Mapping
-
-| Task | Domain | Objective |
-|------|--------|-----------|
-| Task 1 — RBAC | Domain 4 — Security Operations | 4.6 Implement IAM, least privilege |
-| Task 2 — Disable shared account | Domain 4 — Security Operations | 4.6 Accountability, identity hygiene |
-| Task 3 — Sign-in logs | Domain 4 — Security Operations | 4.9 Log data sources, investigations |
-| Task 4 — Alert policy | Domain 4 — Security Operations | 4.9 Monitoring and alerting |
-| Task 5 — Secure Score | Domain 5 — Governance & Compliance | 5.1 Risk management |
 
 ---
 

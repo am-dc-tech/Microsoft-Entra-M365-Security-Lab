@@ -8,7 +8,6 @@
 ## 🧰 Prerequisites
 
 - Access to [entra.microsoft.com](https://entra.microsoft.com) as Global Administrator
-- Access to [admin.microsoft.com](https://admin.microsoft.com)
 - Microsoft 365 Business Premium trial (active)
 
 ---
@@ -24,6 +23,9 @@
 | Pablo Marquez | pablo.marquez@AMTECHLab.onmicrosoft.com | Unlicensed |
 | support | support@AMTECHLab.onmicrosoft.com | Unlicensed |
 | Tracy Dalhousie | tracy.dalhousie@AMTECHLab.onmicrosoft.com | Unlicensed |
+
+<img width="943" height="303" alt="1 user-list" src="https://github.com/user-attachments/assets/ed91bb57-4b7e-4322-8e07-bfa466e4f7d7" />
+
 
 ---
 

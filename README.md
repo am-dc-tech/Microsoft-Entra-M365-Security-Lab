@@ -33,7 +33,6 @@
 
 ### Task 1 — Assign Roles (RBAC / Least Privilege)
 
-**Concept:** Least privilege — users should only hold the permissions they need to do their job.
 
 **Steps:**
 1. Sign in to [entra.microsoft.com](https://entra.microsoft.com)
@@ -46,9 +45,19 @@
 | Carol Chen | Helpdesk Administrator | Scoped IT support, no over-privilege |
 | Jamie Randle | Guest Inviter | Minimal role, no license required |
 
+<img width="1275" height="213" alt="2 Alice_assigned-role" src="https://github.com/user-attachments/assets/0c7ffe32-bb4a-4cd2-9590-850096264dae" />
+
+<img width="1283" height="209" alt="3 Carol_assigned-role" src="https://github.com/user-attachments/assets/d7dd594a-7163-46e9-bb4a-253dd6c21815" />
+
+<img width="1212" height="216" alt="4 Jamie_assigned-role" src="https://github.com/user-attachments/assets/a7e4786d-0927-4231-89a8-036b3b468ef4" />
+
+
+
 4. For each user: click their name → **Assigned roles** → **+ Add assignment** → search and select the role → click **Add**
 
-> ✅ **Expected result:** Each user has exactly one assigned role — no more, no less.
+
+<img width="1613" height="101" alt="5 all_assigned-roles" src="https://github.com/user-attachments/assets/46688c79-8049-4be4-9ba3-09fd8de07725" />
+
 
 ---
 

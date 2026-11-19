@@ -98,7 +98,7 @@
 
 <img width="1608" height="328" alt="8 Carol-sign-in-issue-log" src="https://github.com/user-attachments/assets/69a8c284-183f-42f5-8a19-16fe00b8e921" />
 
-> Tenant: `You can add Password-Lockout attempts to reduce the number of attempts for the user to log-in, better tighter security
+> Consideration: `You can add Password-Lockout attempts to reduce the number of attempts for the user to log-in, better tighter security
 
 > ✅ **Expected result:** You can identify where, when, and how users are signing in and whether any policies are enforcing controls.
 
